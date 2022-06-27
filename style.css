@@ -95,6 +95,7 @@ main > img {
 }
 
 .container_table div:nth-child(7) {
+  background-color: blueviolet;
 }
 
 .container_table div:nth-child(8) {
