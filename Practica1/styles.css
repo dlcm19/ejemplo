@@ -74,7 +74,7 @@
      flex-direction: row;
       color: white;
       gap: 1rem;
-      background-color: aqua;
+     
   }
   .personas{
       background-color: var(--color-morado);
