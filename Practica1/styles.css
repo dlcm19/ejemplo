@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root{
+      --color-morado: hsl(300, 43%, 22%);
+      --color-morado-claro: hsl(300, 24%, 96%);
+      
+  }
+  .containerPrincipal{
+      padding: 1rem;
+      margin-top: 4rem;
+      
+  }
+  .seccion1{
+      display: flex;
+     
+  }
+  .containerTitulo h1{
+      color:var(--color-morado);
+      font-weight: 700;
+      font-size: 2.5rem;
+      text-align: center;
+  
+  }
+  .containerTitulo p {
+      color: hsl(303, 10%, 53%);
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.2;
+      text-align: center;
+      margin-bottom: 2rem;
+      
+  }
+  .containerEStrella{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width:  100%;
+     gap: 10px;
+     color: var(--color-morado);
+     height: 11vh;
+     font-size: 10px;
+     font-weight: 700;
+  }
+  .containerEstrella1{
+    background-color:var(--color-morado-claro);
+    width: 45%;
+    padding: 10px;
+    border-radius: 8px;
+    align-self: baseline;
+  }
+  .containerEstrella2{
+      background-color:var(--color-morado-claro);
+      width: 47%;
+      padding: 8px;
+      border-radius: 10px;
+      align-self:center;
+  }
+  
+  .containerEstrella3{
+      background-color:var(--color-morado-claro);
+      width: 45%;
+      padding: 10px;
+      border-radius: 8px;
+      align-self:flex-end;
+    
+   }
+  .seccion2{
+      display: flex;
+     flex-direction: row;
+      color: white;
+      gap: 1rem;
+      background-color: aqua;
+  }
+  .personas{
+      background-color: var(--color-morado);
+      width: 90%;   
+      border-radius: 10px;
+      padding: 1rem;  
+  }
+  .seccion2 img{
+    border-radius: 100%; 
+  }
